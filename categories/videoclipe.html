@@ -39,6 +39,7 @@
 
         .form-container {
             max-width: 700px;
+            max-height: 1250px;
             margin: 0 auto;
             padding: 15px;
             border: 2px solid #ffd700;
@@ -64,24 +65,117 @@
             
         }
 
-        @media (max-width: 768px) {
+       
+
+
+    
+    @media (max-width: 768px) {
             .iframe-wrapper {
-                transform: scale(0.9); /* Escala menor em dispositivos móveis */
+                height: 50%;
+            transform: scale(0.45); /* Escala menor em dispositivos móveis */
+            transform-origin: top center;
             }
             .form-container {
-                max-width: 400px;
+                display: block;
+                max-width: 85%;
+                margin-bottom: 20px;
+                max-height: 550px;
+
             }
             iframe {
-                width: 1000px;
-                height: 1000px; /* Ajuste conforme necessário */
+                margin-bottom: px;
+                width: 700px;
+                height: 1250px; /* Ajuste conforme necessário */
                 border: none;
             }
-        }
+    
+    }
+
+
+    @media (max-width: 590px) {
+    .iframe-wrapper {
+        transform: scale(0.38);
+        transform-origin: top left;
+    }
+    .form-container {
+        display: block;
+        max-width: 300px;
+        margin-bottom: 20px;
+        max-height: 460px;
+    }
+    iframe {
+        width: 800px;
+        height: 1250px;
+    }
+}
+
+
+    @media (max-width: 490px) {
+    .iframe-wrapper {
+        transform: scale(0.38);
+        transform-origin: top left;
+    }
+    .form-container {
+        display: block;
+        max-width: 300px;
+        margin-bottom: 20px;
+        max-height: 460px;
+    }
+    iframe {
+        width: 800px;
+        height: 1250px;
+    }
+}
+
+
+    
+
+
+
+
+/* Telas muito pequenas (smartphones compactos, até 360px) */
+@media (max-width: 385px) {
+    .iframe-wrapper {
+        transform: scale(0.38);
+        transform-origin: top left;
+    }
+    .form-container {
+        display: block;
+        max-width: 300px;
+        margin-bottom: 20px;
+        max-height: 460px;
+    }
+    iframe {
+        width: 800px;
+        height: 1250px;
+    }
+}
+
+/* Telas ultra pequenas (smartphones antigos, até 320px) */
+@media (max-width: 320px) {
+    .iframe-wrapper {
+        transform: scale(0.31);
+        transform-origin: top left;
+    }
+    .form-container {
+        display: block;
+        max-width: 250px;
+        margin-bottom: 20px;
+        max-height: 380px;
+    }
+    iframe {
+        width: 800px;
+        height: 1250px;
+    }
+}
+
+       
+
     </style>
 </head>
 <body>
     <header>
-        <h1>Prêmio Recito Sertanejo</h1>
+        <h1>Prêmio Recito Sertanejo - 2024</h1>
         <p>Participe da votação e ajude a escolher os grandes nomes do sertanejo!</p>
     </header>
     
