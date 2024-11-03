@@ -138,6 +138,16 @@ iframe {
         width: 800px;
         height: 1250px;
     }
+
+    header p {
+        font-size: 12px;
+    }
+    
+
+    footer {
+        font-size: 12px;
+        
+    }
 }
 
 
@@ -164,6 +174,20 @@ iframe {
         width: 800px;
         height: 1250px;
     }
+
+    h1 {
+        font-size:20px;
+    }
+    header p {
+        font-size: 8px;
+    }
+    
+
+    footer {
+        font-size: 12px;
+        
+    }
+
 }
 
 /* Telas ultra pequenas (smartphones antigos, até 320px) */
@@ -183,5 +207,14 @@ iframe {
     iframe {
         width: 800px;
         height: 1250px;
+    }
+
+    header p {
+        font-size: 8px;
+    }
+
+    footer {
+        font-size: 10px;
+        position: absolute;
     }
 }
