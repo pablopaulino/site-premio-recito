@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sempre Lembrado - Prêmio Recito Sertanejo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #1f1f1f;
+            position: fixed;
+            top: 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+        }
+
+        .logo img {
+            height: 50px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-links a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #ffdd00;
+        }
+
+        .content {
+            margin-top: 160px;
+            padding: 20px;
+            text-align: center;
+            max-width: 800px;
+        }
+
+        h1 {
+            color: #ffdd00;
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .tribute {
+            background-color: #1f1f1f;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .tribute h2 {
+            color: #ffdd00;
+            margin: 0 0 10px;
+        }
+
+        footer {
+            background-color: #1f1f1f;
+            color: #ffffff;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+            position: fixed;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+            color: #bbbbbb;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header com logo e links -->
+    <header>
+        <div class="logo">
+            <a href="https://www.instagram.com/premiorecito/">
+                <img src="../recito-logo.png" alt="Logo do Prêmio Recito Sertanejo">
+            </a>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="tribute">
+            <h2>Sempre Lembrado</h2>
+            <p>A categoria <strong>Sempre Lembrado</strong> é uma homenagem aos artistas que marcaram a história do sertanejo e deixaram um legado inesquecível. A cada ano, o Prêmio Recito Sertanejo celebra a vida e a obra desses talentos que já partiram, mas cujas contribuições continuam a inspirar novas gerações.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Prêmio Recito Sertanejo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
